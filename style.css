@@ -79,7 +79,7 @@ nav button {
 .main {
   margin-top: 2.5rem;
   margin-bottom: 2rem;
-  height: 105rem;
+  height: 100rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -92,17 +92,221 @@ nav button {
 }
 
 .cards img {
-  width: 100%;
+  width: 80%;
 }
 .cards h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin: 1rem 0;
 }
-.cards p{
-    font-family: "Open sans", sans-serif;
-    font-weight: 400;
-    color: hwb(209 50% 40%);
-    font-size: 1rem;
-    line-height: 1.7rem;
+.cards p {
+  font-family: "Open sans", sans-serif;
+  font-weight: 400;
+  color: hwb(209 50% 40%);
+  font-size: 1rem;
+  line-height: 1.7rem;
+}
+
+.cardss {
+  text-align: center;
+  padding: 1rem;
+  box-shadow: -1px 1px 5px rgb(226, 225, 225);
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30%;
+}
+/* .cards h2 {
+margin-top: 235;
+width: 100%;
+font-size: 57%;
+padding-top: 2%;
+padding-bottom: 0%;
+font-weight: bolder;
+position: relative;
+z-index: 1;
+background-color: 255255;
+padding: 20px;
+} */
+
+.cardss h2 {
+  font-family: "Open sans", sans-serif;
+  font-weight: 600;
+  margin: 1rem 0;
+  font-size: small;
+}
+.cardss button {
+  height: 1rem;
+  border-radius: 1rem;
+  width: 70%;
+  border: none;
+  color: #feffff;
+  background-color: hsl(322, 100%, 66%);
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 8px;
+}
+.cardsss img {
+  width: 30%;
+  /* background-color: hsl(192, 100%, 9%); */
+  border: 2px 3rem 4rem 4rem solid black;
+  margin-left: 10%;
+  line-height: 80%;
+}
+.parent-footer {
+  background-color: hsl(192, 100%, 9%);
+}
+.location {
+  margin-left: 4%;
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+}
+.address {
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  color: #feffff;
+  font-family: "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.phone {
+  margin-top: 1rem;
+  margin-left: 4%;
+  display: flex;
+  flex-direction: row;
+  color: #feffff;
+  font-family: "Open sans", sans-serif;
+  font-weight: 200;
+  font-size: small;
+}
+.email {
+  margin-top: 1rem;
+  margin-left: 4%;
+  display: flex;
+  flex-direction: row;
+  color: #feffff;
+  font-family: "Open sans", sans-serif;
+  font-weight: 200;
+  font-size: small;
+}
+ul {
+  list-style: none;
+}
+.ordered {
+  margin-top: 1rem;
+  margin-left: 6%;
+  line-height: 2rem;
+  display: flex;
+  flex-direction: row;
+  color: #feffff;
+  font-family: "Open sans", sans-serif;
+  font-weight: 200;
+  font-size: small;
+}
+
+.footer {
+  color: #feffff;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 5%;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 20%;
+  padding-bottom: 10%;
+  justify-content: center;
+}
+
+.icons {
+  background: inherit;
+  padding: 0.5em;
+  border-radius: 50%;
+  border: 1.2px solid;
+  color: #feffff;
+}
+.lastman {
+  background: inherit;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  color: #feffff;
+  font-family: "Open sans", sans-serif;
+  font-weight: 200;
+  font-size: small;
+}
+@media (min-width: 1024px) {
+  nav img {
+    width: 20%;
+  }
+  nav button {
+    width: 15%;
+  }
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero-content {
+    width: 45%;
+  }
+  .hero-img {
+    max-width: 60%;
+  }
+  .hero-content h2 {
+    text-align: start;
+    width: 100%;
+  }
+  .hero-content p {
+    text-align: start;
+    width: 100%;
+  }
+
+  .hero-content button {
+    width: 100%;
+  }
+  /* main for card 1 */
+  #card-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+  }
+  #card-1 img {
+    width: 40%;
+  }
+  #card-1-main {
+    width: 40%;
+  }
+  #card-2 {
+    display: flex;
+      justify-content: space-between;
+    align-items: center;
+    text-align: start;
+  }
+  #card-2 img {
+    width: 40%;
+  }
+  #card-2-main {
+    width: 40%;
+  }
+  #card-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+  }
+  #card-3 img {
+    width: 40%;
+  }
+  #card-3-main {
+    width: 40%;
+  }
 }
